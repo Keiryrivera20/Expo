@@ -1,0 +1,17 @@
+//SASS o scss sirve para modificar los estilos ya hechos de bootstrap segun nuestras necesidades
+
+// definiendo mis variables usando patrones de colores
+
+$principal: #154E81;
+$secundario: #80C41C;
+$third: #2DAEBF;
+
+
+// intercambiando el valor por defecto por el valor que deseo
+
+$primary: $principal;
+$success: $secundario;
+$secondary: $third; 
+
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
